@@ -19,13 +19,13 @@ Pusedo Code for playing the hilo game.
 a) Was it too high?
 b) The range has been shortened from the bottom to the number just under the number chosen.
 
-5-c. Now pick the median of the new range.
+c) Now pick the median of the new range.
+d) repeat back to step 3.
 
-5-d. repeat back to step 3.
+e) Was it too low?
+f) The range has been shortened from the top to the number just above what was chosen.
 
-* Was it too low?
-* The range has been shortened from the top to the number just above what was chosen.
-* Pick the median of the new range.
-* Repeat back to step 3.
+g) Pick the median of the new range.
+h) Repeat back to step 3.
     
 ## Jan 17 class: Tuesday
