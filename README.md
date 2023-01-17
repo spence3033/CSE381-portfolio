@@ -16,14 +16,14 @@ Pusedo Code for playing the hilo game.
 4. If true, Stop! You won!
 5. If no, 
 
-6. Was it too high?
-7. The range has been shortened from the bottom to the number just under the number chosen.
-8. Now pick the median of the new range.
-9. repeat back to step 3.
+* Was it too high?
+* The range has been shortened from the bottom to the number just under the number chosen.
+* Now pick the median of the new range.
+* repeat back to step 3.
 
-10. Was it too low?
-11. The range has been shortened from the top to the number just above what was chosen.
-12. Pick the median of the new range.
-13. Repeat back to step 3.
+* Was it too low?
+* The range has been shortened from the top to the number just above what was chosen.
+* Pick the median of the new range.
+* Repeat back to step 3.
     
 ## Jan 17 class: Tuesday
