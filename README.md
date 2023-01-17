@@ -34,4 +34,24 @@ Asymptotic Notations and Basic Efficiency Classes
 
 The efficiency analysis framework, computer scientists user three notations: $\mathcal{O}$ (big oh), $\Omega$ (big Omega), and $\Theta$ (big Theta)
 
+Informal description: 
+
+$\mathcal{O} (g(n))$ is all functions with a lower or same order of growth as $g(n)$.
+
+$\Omega (g(n))$ is all functions with higher or same orderof growth.
+
+$\Theta (g(n))$ all functions that have the same order of growth as $g(n)$.
+
+**Using Limits for Comparing Orders of Growth**
+
+A more convenient method for comparing growth is based on computing the limit of the ratio of the two functions in question.
+
+I might want to ask about the mathamatical functions because the reading was confusing.
+
+**Basic Efficiency Classes**
+
+It may be a suprise that time efficiences fall into only a few classes.
+
+There is the concern that larger classes outperform simpler classes, but few anomalies are known. But generally for even moderately sized inputs, this efficiency class setup will be correct.
+
 ## Jan 17 class: Tuesday
