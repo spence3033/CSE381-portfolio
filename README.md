@@ -25,5 +25,11 @@ e) Was it too low?
 f) The range has been shortened from the top to the number just above what was chosen.
 g) Pick the median of the new range.
 h) Repeat back to step 3.
+
+### Jan 12 Preparation Reading
+
+**The Design and Analysis of Algorithms: Section 2.2**
+
+blah
     
 ## Jan 17 class: Tuesday
