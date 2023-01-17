@@ -30,6 +30,8 @@ h) Repeat back to step 3.
 
 **The Design and Analysis of Algorithms: Section 2.2**
 
-blah
-    
+Asymptotic Notations and Basic Efficiency Classes
+
+The efficiency analysis framework, computer scientists user three notations: $\mathcal{O}$ (big oh), $\Omega$ (big Omega), and $\Theta$ (big Theta)
+
 ## Jan 17 class: Tuesday
