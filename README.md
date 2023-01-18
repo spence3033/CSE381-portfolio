@@ -58,6 +58,7 @@ There is the concern that larger classes outperform simpler classes, but few ano
 
 Binary Search
 
+```
 import random
 
 def binarySearch(numlist, target):
@@ -88,4 +89,4 @@ target = random.choice(list)
 
 print(target)
 print(binarySearch(list, target))
-
+```
