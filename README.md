@@ -55,3 +55,37 @@ It may be a suprise that time efficiences fall into only a few classes.
 There is the concern that larger classes outperform simpler classes, but few anomalies are known. But generally for even moderately sized inputs, this efficiency class setup will be correct.
 
 ## Jan 17 class: Tuesday
+
+Binary Search
+
+import random
+
+def binarySearch(numlist, target):
+    print(numlist)
+    midpoint = len(numlist) // 2
+    guess = numlist[midpoint]
+    newnum = []
+
+    if guess == target:
+        print("You guessed it!")
+        return guess
+
+    elif guess < target:
+
+        for i in range(midpoint + 1, len(numlist)):
+            newnum.append(numlist[i])
+        print(f"Too low, guess: {guess}")
+    else:
+        for i in range(0, midpoint):
+            newnum.append(numlist[i])
+    
+        print(f"Too High, guess: {guess}")
+    
+    return binarySearch(newnum, target)
+
+list = range(0, 99)
+target = random.choice(list)
+
+print(target)
+print(binarySearch(list, target))
+
