@@ -90,3 +90,30 @@ target = random.choice(list)
 print(target)
 print(binarySearch(list, target))
 ```
+
+## Jan 24 class: Tuesday
+
+Grade Claim problems
+
+Complete 4 exercises for asymptotic notation practice. Found in assigned problems tab in teams.
+
+1. 
+2.
+3.
+4.
+
+1.1 Problem 6:
+
+1.1 Problem 12:
+
+1.2 Problem 6:
+
+1.4 Problem 2
+
+2.1 Problem 41b
+
+2.1 Problem 9a-f
+
+2.2 Problem 1
+
+2.2 Problem 2a-d
