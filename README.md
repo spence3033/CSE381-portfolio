@@ -1,5 +1,7 @@
 # CSE381-portfolio
 
+![reading assignments](https://github.com/spence3033/CSE381-portfolio/blob/c6fb37d5f66ddfada11c3ddcbcd6c0a64800d637/Screen%20Shot%202023-01-10%20at%204.41.59%20PM.png)
+
 ## Jan 5 class: Thursday
 First day of Class!
 
