@@ -106,15 +106,15 @@ print(binarySearch(list, target))
 
 ## Jan 24 class: Tuesday
 
-# Grade Claim problems
+### Grade Claim problems
 
-# 1.1 Problem 6:
+### 1.1 Problem 6:
 
 a. Find gcd(31415, 14142) by applying Euclid's algorithm. 
 b. . Estimate how many times faster it will be to find gcd(31415, 14142) by
 Euclid’s algorithm compared with the algorithm based on checking consecutive integers from min{m, n} down to gcd(m, n).
 
-# 1.1 Problem 12:
+### 1.1 Problem 12:
 
 Locker doors There are n lockers in a hallway, numbered sequentially from
 1 to n. Initially, all the locker doors are closed. You make n passes by the
@@ -123,12 +123,12 @@ toggle the door of every ith locker: if the door is closed, you open it; if it i
 open, you close it. After the last pass, which locker doors are open and which
 are closed? How many of them are open?
 
- # 1.2 Problem 6:
+ ### 1.2 Problem 6:
 
 Describe the algorithm used by your favorite ATM machine in dispensing
 cash. (You may give your description in either English or pseudocode, whichever you find more convenient.)
 
-# 1.4 Problem 2
+### 1.4 Problem 2
 
 If you have to solve the searching problem for a list of n numbers, how can you
 take advantage of the fact that the list is known to be sorted? Give separate
@@ -136,7 +136,7 @@ answers for
 a. lists represented as arrays.
 b. lists represented as linked lists.
 
-# 2.1 Problem 4ab
+### 2.1 Problem 4ab
 
 a. Glove selection There are 22 gloves in a drawer: 5 pairs of red gloves, 4
 pairs of yellow, and 2 pairs of green. You select the gloves in the dark and
@@ -152,7 +152,7 @@ of the 10 socks is the same, find the probability of the best-case scenario;
 the probability of the worst-case scenario; the number of pairs you should
 expect in the average case
 
-# 2.1 Problem 9a-f
+### 2.1 Problem 9a-f
 
 For each of the following pairs of functions, indicate whether the first function
 of each of the following pairs has a lower, same, or higher order of growth (to
@@ -162,7 +162,7 @@ c. log2 n and ln n d. log2
 2 n and log2 n2
 e. 2n−1 and 2n f. (n − 1)! and n!
 
-# 2.2 Problem 1
+### 2.2 Problem 1
 
 . Use the most appropriate notation among O, , and  to indicate the time
 efficiency class of sequential search (see Section 2.1)
@@ -170,4 +170,4 @@ a. in the worst case.
 b. in the best case.
 c. in the average case.
 
-# 2.2 Problem 2a-d
+### 2.2 Problem 2a-d
