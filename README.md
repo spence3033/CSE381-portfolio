@@ -108,13 +108,6 @@ print(binarySearch(list, target))
 
 Grade Claim problems
 
-Complete 4 exercises for asymptotic notation practice. Found in assigned problems tab in teams.
-
-1. 
-2.
-3.
-4.
-
 1.1 Problem 6:
 
 1.1 Problem 12:
