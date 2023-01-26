@@ -8,6 +8,7 @@ First day of Class!
 ## Jan 10 class: Tuesday
 
 Learne about Euclid's Algorithm
+
 ![Euclid's algorithm](https://github.com/spence3033/CSE381-portfolio/blob/4b749ded8267a0190cf51d0cb02f44c9f707d89f/Euclids%20Algorithm.png)
 
 ## Jan 12 class: Thursday
