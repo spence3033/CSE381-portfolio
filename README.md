@@ -93,7 +93,7 @@ print(binarySearch(list, target))
 
 ## Jan 19 problems:
 
-![Alt text](CSE381-portfolio/GC exercise 1.png "Title")
+![Alt text](CSE381-portfolio/GC exercise 1.png)
 
 ## Jan 24 class: Tuesday
 
