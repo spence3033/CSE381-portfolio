@@ -111,8 +111,25 @@ print(binarySearch(list, target))
 ### 1.1 Problem 6:
 
 a. Find gcd(31415, 14142) by applying Euclid's algorithm. 
+
+* 31415, 14142
+* 14142, 3131
+* 3131, 1618
+* 1618, 1513
+* 1513, 105
+* 105, 43
+* 43, 19
+* 19, 5
+* 5, 4
+* 4, 1
+
+So 1??
+
+
 b. . Estimate how many times faster it will be to find gcd(31415, 14142) by
 Euclid’s algorithm compared with the algorithm based on checking consecutive integers from min{m, n} down to gcd(m, n).
+
+
 
 ### 1.1 Problem 12:
 
