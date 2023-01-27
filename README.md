@@ -145,6 +145,8 @@ are closed? How many of them are open?
 Describe the algorithm used by your favorite ATM machine in dispensing
 cash. (You may give your description in either English or pseudocode, whichever you find more convenient.)
 
+### 1.2 Problem 1
+
 ### 1.4 Problem 2
 
 If you have to solve the searching problem for a list of n numbers, how can you
