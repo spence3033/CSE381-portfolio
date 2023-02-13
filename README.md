@@ -106,7 +106,7 @@ print(binarySearch(list, target))
 
 ## Jan 24 class: Tuesday
 
-### Grade Claim problems
+### Grade Claim 1 problems
 
 ### 1.1 Problem 6:
 
@@ -190,3 +190,18 @@ b. in the best case.
 c. in the average case.
 
 ### 2.2 Problem 2a-d
+
+
+### Grade Claim 2 problems
+
+### 3.1 Problem 3
+
+### 3.1 Problem 7
+
+### 3.1 Problem 8
+
+### 3.1 Problem 9
+
+### 4.1 Problem 1
+
+### 4.2 Problem 1
