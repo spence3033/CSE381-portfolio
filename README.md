@@ -194,6 +194,12 @@ c. in the average case.
 
 ### Grade Claim 2 problems
 
+### Selection Sort
+
+### Insertion Sort
+
+### And possibly Topological Sort
+
 ### 3.1 Problem 3
 
 ### 3.1 Problem 7
