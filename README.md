@@ -196,7 +196,71 @@ c. in the average case.
 
 ### Selection Sort
 
+```
+import random
+
+#setup
+size = 10
+unsortedNums = random.sample(range(1, 1000), size)
+
+#print(unsortedNums)
+
+#algorithm
+def selectionSort(nums):
+    for i in range(len(nums) - 1):
+        smallest = i
+        print(nums)
+        for j in range(i, len(nums)):
+            if nums[j] < nums[smallest]:
+                smallest = j
+        nums[i], nums[smallest] = nums[smallest], nums[i]
+    return(nums)
+
+#testing the algorithm
+sortedNums = selectionSort(unsortedNums)
+print(sortedNums)
+```
+
 ### Insertion Sort
+
+```
+import random
+
+#setup
+size = 10
+unsortedNums = random.sample(range(1, 1000), size)
+print(unsortedNums)
+
+#algorithm
+def InsertionSort(nums):
+    sortedArray = []
+    unsortedArray = nums
+
+    for x in unsortedArray:
+
+        if len(sortedArray) == 0:
+            sortedArray.append(x)
+        else:
+            sortedArray = InsertIntoSorted(sortedArray, x)
+
+        print(sortedArray)
+
+    return sortedArray
+
+def InsertIntoSorted(sortedArray, num):
+    for i in range(len(sortedArray)):
+        if num < sortedArray[i]:
+            sortedArray.insert(i, num)
+            return sortedArray
+        elif i + 1 == len(sortedArray):
+            sortedArray.append(num)
+            return sortedArray
+
+
+#testing the algorithm
+sortedNums = InsertionSort(unsortedNums)
+print(sortedNums)
+```
 
 ### And possibly Topological Sort
 
