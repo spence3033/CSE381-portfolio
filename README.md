@@ -325,11 +325,19 @@ in Section 1.3.)
 Yes. I think it is stable because selection sort will not mix up the order of items that are of the same value. Selection sort will choose the first item that was smallest. So if we ordered by number and we had items: 
 
 (1, A) (1, C) (2, A) (1, B)
+
 Selection sort would leave the 1's in the same order.
-So
+So...
 
 (1, A) (1, C) (1, B) (2, A)
 
 ### 4.1 Problem 1
+
+Ferrying soldiers A detachment of n soldiers must cross a wide and deep
+river with no bridge in sight. They notice two 12-year-old boys playing in a
+rowboat by the shore. The boat is so tiny, however, that it can only hold two
+boys or one soldier. How can the soldiers get across the river and leave the
+boys in joint possession of the boat? How many times need the boat pass from
+shore to shore?
 
 ### 4.2 Problem 1
