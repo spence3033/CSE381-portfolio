@@ -308,10 +308,27 @@ So you could find the stack on the first try. So 1 guess. But if it's about the 
 
 Sort the list E, X, A, M, P , L, E in alphabetical order by selection sort.
 
+* E, X, A, M, P, L, E
+* A, E, X, M, P, L, E
+* A, E, X, M, P, L, E
+* A, E, E, X, M, P, L
+* A, E, E, L, X, M, P 
+* A, E, E, L, M, X, P 
+* A, E, E, L, M, P, X
+* A, E, E, L, M, P, X
+
 ### 3.1 Problem 9
 
 Is selection sort stable? (The definition of a stable sorting algorithm was given
 in Section 1.3.)
+
+Yes. I think it is stable because selection sort will not mix up the order of items that are of the same value. Selection sort will choose the first item that was smallest. So if we ordered by number and we had items: 
+
+(1, A) (1, C) (2, A) (1, B)
+Selection sort would leave the 1's in the same order.
+So
+
+(1, A) (1, C) (1, B) (2, A)
 
 ### 4.1 Problem 1
 
