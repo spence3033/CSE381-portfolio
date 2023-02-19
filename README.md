@@ -269,11 +269,49 @@ print(sortedNums)
 For each of the algorithms in Problems 4, 5, and 6 of Exercises 2.3, tell whether
 or not the algorithm is based on the brute-force approach.
 
+Problem 4: 
+S = S + i^2
+As i goes to n?
+I'm not sure this is brute force or not. There is probably a simpler way however.
+
+Problem 5:
+I think we are iterating through an array for the min and max values, then getting the difference of them.
+I think it would be O(n).
+This one is brute force because you have to go through the entire array with no shortcuts.
+
+Problem 6:
+I think we are iterating through at array that is n * n. And I think we are going through all the values one by one.
+
+So it should be O(n^2)
+This one is brute force. becuase we are going through an array that is n*n and there are no shortcuts.
+
 ### 3.1 Problem 7
+
+A stack of fake coins There are n stacks of n identical-looking coins. All of
+the coins in one of these stacks are counterfeit, while all the coins in the other
+stacks are genuine. Every genuine coin weighs 10 grams; every fake weighs
+11 grams. You have an analytical scale that can determine the exact weight of
+any number of coins.
+
+a. Devise a brute-force algorithm to identify the stack with the fake coins and
+determine its worst-case efficiency class.
+
+The brute force is check every coin to be counterfeit. So O(n^2).
+
+b. What is the minimum number of weighings needed to identify the stack
+with the fake coins?
+
+The minimum (I'm not sure if this is about being lucky in finding the right stack or having a algorithm that has the least searches),
+So you could find the stack on the first try. So 1 guess. But if it's about the worst senerio with the best algorithm, then it is O(n) becuase you only need to check one coin from each stack.
 
 ### 3.1 Problem 8
 
+Sort the list E, X, A, M, P , L, E in alphabetical order by selection sort.
+
 ### 3.1 Problem 9
+
+Is selection sort stable? (The definition of a stable sorting algorithm was given
+in Section 1.3.)
 
 ### 4.1 Problem 1
 
