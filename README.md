@@ -266,6 +266,9 @@ print(sortedNums)
 
 ### 3.1 Problem 3
 
+For each of the algorithms in Problems 4, 5, and 6 of Exercises 2.3, tell whether
+or not the algorithm is based on the brute-force approach.
+
 ### 3.1 Problem 7
 
 ### 3.1 Problem 8
