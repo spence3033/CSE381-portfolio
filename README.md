@@ -353,4 +353,15 @@ and how many times to go from shore to shore?
 
 ### 4.2 Problem 1
 
+Apply the DFS-based algorithm to solve the topological sorting problem for
+the following digraphs:
 
+Topological sorting is only possible if it is a directed acyclic graph (DAG). Essentially there is a direction that they can be sorted from what I can understand. There are two efficient algorithms that verify if a digraph is a DAG and produces an odering of vertices that solves the topological sorting problem.
+
+1st algorithm DFS traversal: application of depth-first search: Follow some lines and note when the order of the vertices become dead-dens (pip off the traversal stack) Reversing the order yields a solution assuming no back edge has been encountered. If a back edge has been encountered the digraph is not a DAG.
+
+2nd algorithm: 
+
+First Diagraph: D, A, C, B, G, E, F
+
+F, No dead end found, So it's not a DAG (directed acyclic graph).
