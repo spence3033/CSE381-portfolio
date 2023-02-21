@@ -333,11 +333,24 @@ So...
 
 ### 4.1 Problem 1
 
-Ferrying soldiers A detachment of n soldiers must cross a wide and deep
+Ferrying soldiers - A detachment of n soldiers must cross a wide and deep
 river with no bridge in sight. They notice two 12-year-old boys playing in a
 rowboat by the shore. The boat is so tiny, however, that it can only hold two
 boys or one soldier. How can the soldiers get across the river and leave the
 boys in joint possession of the boat? How many times need the boat pass from
 shore to shore?
 
+n, 2 boys playing in a rowboat. The boat holdes 2 boys or 1 soldier. 
+How to leave the boys in joint possession of the boat? 
+and how many times to go from shore to shore?
+
+1. I assume they mean there needs to be a boy on one side of the river and one on the other. So both boys need to go to one side, then one comes back. So two passes initially.
+2. Then a soldier goes to the other shore. Then the boy with the soldiers goes back to the other boy, both go accross and one comes back so theres one boy on each side. 4 passes.
+3. Then repeat step 2.
+
+4 * n + 2.
+
+
 ### 4.2 Problem 1
+
+
