@@ -364,4 +364,4 @@ Topological sorting is only possible if it is a directed acyclic graph (DAG). Es
 
 First Diagraph: D, A, C, B, G, E, F
 
-F, No dead end found, So it's not a DAG (directed acyclic graph).
+Second Diagraph: F, No dead end found, So it's not a DAG (directed acyclic graph).
