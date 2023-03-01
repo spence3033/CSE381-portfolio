@@ -272,7 +272,7 @@ or not the algorithm is based on the brute-force approach.
 Problem 4: 
 S = S + i^2
 As i goes to n?
-I'm not sure this is brute force or not. There is probably a simpler way however.
+I'm not sure this is brute force or not. I can see that it's a recursive problem. So it could go on n times for a certain amount of numbers, and there may be a way to find an algorithm that doesn't require the recursiveness.
 
 Problem 5:
 I think we are iterating through an array for the min and max values, then getting the difference of them.
@@ -322,9 +322,15 @@ Sort the list E, X, A, M, P , L, E in alphabetical order by selection sort.
 Is selection sort stable? (The definition of a stable sorting algorithm was given
 in Section 1.3.)
 
-Yes. I think it is stable because selection sort will not mix up the order of items that are of the same value. Selection sort will choose the first item that was smallest. So if we ordered by number and we had items: 
+Yes. I think it is stable because selection sort will not mix up the order of items that are of the same value. Selection sort will choose the first item that was smallest. So if we ordered by number and we had items:
 
 (1, A) (1, C) (2, A) (1, B)
+
+I was incorrect: Selection sort is unstable because we are throwing values backwards, this could mess up the order.
+
+For example: AEEEAEEE
+
+The first E will switch with A and end up not being the first E in the end.
 
 Selection sort would leave the 1's in the same order.
 So...
