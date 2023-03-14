@@ -264,6 +264,17 @@ print(sortedNums)
 
 ### Topological Sort
 
+This is a graph problem so I figure puesdo code works best for this.
+
+Topological Sorting: Breadth first-search
+
+* Step 1: Look for any nodes that have no arrows leading to them. 
+* Step 2: If none are found, the graph cannot be topologically sorted.
+* Step 3: If some are found, add them one by one to the stack, the order doesn't matter.
+* Step 4: If you run out of nodes, you are finished and the stack is your sorted graph.
+* Step 5: Repeat back to step 1.
+    
+
 ### 3.1 Problem 3
 
 For each of the algorithms in Problems 4, 5, and 6 of Exercises 2.3, tell whether
