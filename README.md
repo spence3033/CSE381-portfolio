@@ -262,7 +262,7 @@ sortedNums = InsertionSort(unsortedNums)
 print(sortedNums)
 ```
 
-### And possibly Topological Sort
+### Topological Sort
 
 ### 3.1 Problem 3
 
@@ -371,3 +371,19 @@ Topological sorting is only possible if it is a directed acyclic graph (DAG). Es
 First Diagraph: D, A, C, B, G, E, F
 
 Second Diagraph: F, No dead end found, So it's not a DAG (directed acyclic graph).
+
+## Grade Claim 3
+
+### Russion Peasant
+
+### MergeSort
+
+### Quicksort
+
+### PuIP Problem Reduction
+
+### Problem 5.1: 1(a,b,c,d)
+
+### Problem 5.1: 2(a,b,c)
+
+### Problem 5.2: 5(a,b)
