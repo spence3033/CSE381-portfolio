@@ -674,18 +674,15 @@ It depends on in the array is sorted.
 
 * Step 4: If array is unsorted, you will have to brute force and check every number and record the position of the largest found number.
 
-#### b. What will be your algorithm’s output for arrays with several elements of
-the largest value?
+#### b. What will be your algorithm’s output for arrays with several elements of the largest value?
 
 The output would still be one position of one of the elements that are the largest value.
 
-#### c. Set up and solve a recurrence relation for the number of key comparisons
-made by your algorithm.
+#### c. Set up and solve a recurrence relation for the number of key comparisons made by your algorithm.
 
 It could be 2 or n. It depends on if the array is sorted or not.
 
-#### d. How does this algorithm compare with the brute-force algorithm for this
-problem?
+#### d. How does this algorithm compare with the brute-force algorithm for this problem?
 
 * for recurrence my algorithm: (2, n) 
 * for brute-force: (n)
@@ -694,8 +691,7 @@ So it's only better in one case.
 
 ### Problem 5.1: 2(a,b,c)
 
-a. Write pseudocode for a divide-and-conquer algorithm for finding values
-of both the largest and smallest elements in an array of n numbers.
+#### a. Write pseudocode for a divide-and-conquer algorithm for finding values of both the largest and smallest elements in an array of n numbers.
 
 Once again it depends on if the array is sorted.
 
@@ -711,13 +707,11 @@ If you don't know
 
 So either 2 checks or n*2
 
-b. Set up and solve (for n = 2k) a recurrence relation for the number of key
-comparisons made by your algorithm.
+#### b. Set up and solve (for n = 2k) a recurrence relation for the number of key comparisons made by your algorithm.
 
 My algorithm with n = 2k will be 2 or 4k comparisions. 
 
-c. How does this this algorithm compare with the brute-force algorithm for this
-problem?
+#### c. How does this this algorithm compare with the brute-force algorithm for this problem?
 
 Brute force is automatically 4k comparisions.
 My algorithm is 4k for an unsorted array, or 2 for a sorted array.
@@ -726,7 +720,6 @@ My algorithm is 4k for an unsorted array, or 2 for a sorted array.
 
 For the version of quicksort given in this section:
 
-a. Are arrays made up of all equal elements the worst-case input, the bestcase input, or neither?
+#### a. Are arrays made up of all equal elements the worst-case input, the bestcase input, or neither?
 
-b. Are strictly decreasing arrays the worst-case input, the best-case input, or
-neither?
+#### b. Are strictly decreasing arrays the worst-case input, the best-case input, or neither?
