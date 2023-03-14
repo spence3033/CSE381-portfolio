@@ -171,27 +171,66 @@ vegetarian but does not like cabbage and hence can eat neither the goat nor
 the cabbage to help him solve the problem. And it goes without saying that
 the wolf is a protected species.)
 
+Peasant should take the goat accross.
+Then the Peasant should take the cabbage accross.
+Then lastly take the wolf accross.
+
 ### 1.2 Problem 6:
 
 Describe the algorithm used by your favorite ATM machine in dispensing
 cash. (You may give your description in either English or pseudocode, whichever you find more convenient.)
+
+I haven't ever used an atm machine. So I'm going to list of steps I  see from a video from getting cash from an atm.
+
+* Step one: Check the atm machine says "Please insert your card. Do not remove."
+* Step two: Insert your credit card and leave it there.
+* Step three: Type in your PIN.
+* Step four: Chosse a type of transaction
+* Step five: check your balance to know if you can withdraw money
+* Step six: Click the transaction amount
+* Step seven: Select your receipt preference
+* Step eight: take receipt, take your card, and take your withdrawn money.
 
 ### 1.4 Problem 2
 
 If you have to solve the searching problem for a list of n numbers, how can you
 take advantage of the fact that the list is known to be sorted? Give separate
 answers for
+
 a. lists represented as arrays.
+
+If an array is sorted, the fastest way I know how to find a value is check halfway in the array and see if the value is larger or smaller than the value I'm looking for.
+
+If it is to small, check halfway in the lower values and repeat the process of going halfway into the arrays that you know you value can be found. The same will go the value I'm looking for is larger than the item I saw.
+
+There also is the possiblity the array does not have the value I'm looking for as well.
+
 b. lists represented as linked lists.
+
+For a linked list you don't know how to get halfway into the array because each next item in the list is only found where the previous value is.
+
+So you would have to go through values one by one to find where the next value is linked to and skim through the values. So if you are looking say for 43 and the first value is 1 in the list. You will check each value after 1 in the list and keep checking to make sure each value is less than 43 and rising until you eventually find 43 or you go higher than 43 which means 43 doesn't exist in the list.
+
+
 
 ### 2.1 Problem 4ab
 
-a. Glove selection There are 22 gloves in a drawer: 5 pairs of red gloves, 4
+a. Glove selection: There are 22 gloves in a drawer: 5 pairs of red gloves, 4
 pairs of yellow, and 2 pairs of green. You select the gloves in the dark and
 can check them only after a selection has been made. What is the smallest
 number of gloves you need to select to have at least one matching pair in
 the best case? In the worst case?
-b. Missing socks Imagine that after washing 5 distinct pairs of socks, you
+
+10 red gloves, 8 yellow, 4 green.
+
+The best case is two guesses will get you a matching pair of gloves.
+
+The worst case will depend on the color you are going for and making sure you are pulling gloves out of the drawer and not putting them back. If you are going for red, you could take 14 guesses. If you are going for yellow, it could take 16 guesses. And for green, it could take 20 guesses.
+
+If you keep putting the gloves back in you could go on forever because you always have a chance of selecting the right or wrong gloves continually.
+
+
+b. Missing socks: Imagine that after washing 5 distinct pairs of socks, you
 discover that two socks are missing. Of course, you would like to have
 the largest number of complete pairs remaining. Thus, you are left with
 4 complete pairs in the best-case scenario and with 3 complete pairs in
@@ -200,26 +239,77 @@ of the 10 socks is the same, find the probability of the best-case scenario;
 the probability of the worst-case scenario; the number of pairs you should
 expect in the average case
 
+5 paires - 2 socks missing
+
+Best-case scenario 1/9 (11.11%) chance of both socks being a matching pair. The reason is it doesn't matter what first sock was selected. But there are 9 socks left, and you wish only 1 specific sock was selected which was the matching sock to the first sock missing.
+
+Worst-case scenario 8/9 (88.88%) chace of missing one sock from one pair and another sock from another pair.
+
+
+
 ### 2.1 Problem 9a-f
 
 For each of the following pairs of functions, indicate whether the first function
 of each of the following pairs has a lower, same, or higher order of growth (to
 within a constant multiple) than the second function.
-a. n(n + 1) and 2000n2 b. 100n2 and 0.01n3
-c. log2 n and ln n d. log2
-2 n and log2 n2
-e. 2n−1 and 2n f. (n − 1)! and n!
+
+a. n(n + 1) and 2000n2 
+* first function will always be less than the second function
+* but they do have the same big-O growth. So I guess they actually do have the same order of growth
+
+b. 100n2 and 0.01n3
+* first function has a smaller order of growth to the second function
+
+c. log2 n and ln n 
+* according to big-O. These are the same.
+* But log2 n is slightly growing faster.
+
+d. log2 2 n and log2 n2
+* the first function has a higher growth rate than the second function 
+* log(n)^2 is higher because log(n^2) simplifies to 2 * log(n) which is only log(n) in big-O notation. 
+
+e. 2n−1 and 2n 
+* The first funciton has a lower growth rate than the second function
+
+f. (n − 1)! and n!
+* The first funciton has a lower growth rate than the second function
 
 ### 2.2 Problem 1
 
 . Use the most appropriate notation among O, , and  to indicate the time
 efficiency class of sequential search (see Section 2.1)
+
 a. in the worst case.
+O(n)
+
 b. in the best case.
+Big Theta(1)
+
 c. in the average case.
+
+Possibly: Big Omega(1) - O(n)
+
+Or Big Theta(n/2). 
+
+I'm not entirely sure.
 
 ### 2.2 Problem 2a-d
 
+a. n(n + 1)/2 ∈ O(n3) 
+
+This is true. The growth is within the bounds set.
+
+b. n(n + 1)/2 ∈ O(n2)
+
+I suppose false? The growth is the same, but the function is technically is over the bounds set.
+
+c. n(n + 1)/2 ∈ Big Theta(n3) 
+
+This is false.
+
+d. n(n + 1)/2 ∈ Big Omega(n)
+
+This is true.
 
 ### Grade Claim 2 problems
 
@@ -546,9 +636,97 @@ print(sortedArray)
 ```
 
 ### PuIP Problem Reduction
+```
+# import library
+import pulp as p
+
+# create a LP min problem
+lp_prob = p.LpProblem('Problem', p.LpMinimize)
+# create problem variables
+x = p.LpVariable("x", lowBound = 0)
+y = p.LpVariable("y", lowBound = 0)
+# objective function
+lp_prob += 3 * x + 5 * y
+# constraints
+lp_prob += 2 * x + 3 * y >= 12
+lp_prob += -x + y <= 3
+lp_prob += x >= 4
+lp_prob += y <= 3
+# display the problem
+print(lp_prob)
+# solver
+status = lp_prob.solve()
+# solution status
+print(p.LpStatus[status])
+# print solution
+print(p.value(x), p.value(y), p.value(lp_prob.objective))
+print("Answer should be 6, 0, 18")
+```
 
 ### Problem 5.1: 1(a,b,c,d)
 
+#### a. Write pseudocode for a divide-and-conquer algorithm for finding the position of the largest element in an array of n numbers.
+
+It depends on in the array is sorted.
+* Step 1: If array is sorted check one side
+* Step 2: Check the other side and see which one is the biggest number.
+* Step 3: Whichever is bigger, you'll know if the front or back is the position of the largest element
+
+* Step 4: If array is unsorted, you will have to brute force and check every number and record the position of the largest found number.
+
+#### b. What will be your algorithm’s output for arrays with several elements of
+the largest value?
+
+The output would still be one position of one of the elements that are the largest value.
+
+#### c. Set up and solve a recurrence relation for the number of key comparisons
+made by your algorithm.
+
+It could be 2 or n. It depends on if the array is sorted or not.
+
+#### d. How does this algorithm compare with the brute-force algorithm for this
+problem?
+
+* for recurrence my algorithm: (2, n) 
+* for brute-force: (n)
+
+So it's only better in one case.
+
 ### Problem 5.1: 2(a,b,c)
 
+a. Write pseudocode for a divide-and-conquer algorithm for finding values
+of both the largest and smallest elements in an array of n numbers.
+
+Once again it depends on if the array is sorted.
+
+If it's sorted
+* Step 1: check the front of the array and save the value as the smallest.
+* Step 2: check the back, if it's smaller than the front, save the back as the smallest number, and the front as the biggest.
+
+If it's unsorted, all you can do is brute force it.
+* Check every value for being smaller or bigger than the last saved number.
+
+If you don't know
+* Resort to doing brute force.
+
+So either 2 checks or n*2
+
+b. Set up and solve (for n = 2k) a recurrence relation for the number of key
+comparisons made by your algorithm.
+
+My algorithm with n = 2k will be 2 or 4k comparisions. 
+
+c. How does this this algorithm compare with the brute-force algorithm for this
+problem?
+
+Brute force is automatically 4k comparisions.
+My algorithm is 4k for an unsorted array, or 2 for a sorted array.
+
 ### Problem 5.2: 5(a,b)
+
+For the version of quicksort given in this section:
+
+a. Are arrays made up of all equal elements the worst-case input, the bestcase input, or neither?
+
+b. Are strictly decreasing arrays the worst-case input, the best-case input, or
+neither?
