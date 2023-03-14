@@ -123,12 +123,18 @@ a. Find gcd(31415, 14142) by applying Euclid's algorithm.
 * 5, 4
 * 4, 1
 
-So 1??
-
+So 1
 
 b. . Estimate how many times faster it will be to find gcd(31415, 14142) by
 Euclid’s algorithm compared with the algorithm based on checking consecutive integers from min{m, n} down to gcd(m, n).
 
+Euclid's algorithm = log_2 (14142) = 13.787698544
+
+Normal = 14142
+
+Times Faster = 14142/13.79 = 1025.53
+
+1025 times faster
 
 
 ### 1.1 Problem 12:
@@ -140,12 +146,35 @@ toggle the door of every ith locker: if the door is closed, you open it; if it i
 open, you close it. After the last pass, which locker doors are open and which
 are closed? How many of them are open?
 
- ### 1.2 Problem 6:
+I remember the discussion of this one because it had a fasinating outcome. I hadn't done it before class because it didn't understand what was being asked.
+
+So to begin: 
+* one pass one you toggle lockers divisible by 1 (1,1,1,1,1)
+* second pass you toggle lockers divisible by 2 (1,0,1,0,1)
+* 3 (1,0,0,0,1)
+* 4 (1,0,0,1,1)
+* 5 (1,0,0,1,0)
+
+The ending will be that all lockers that are perfect squares will be open. And all non perfect squares will be closed.
+
+So 1,4,9,16,25,etc.
+
+### 1.2 Problem 1
+
+A peasant finds himself on a riverbank with a wolf, a goat,
+and a head of cabbage. He needs to transport all three to the other side of the
+river in his boat. However, the boat has room for only the peasant himself
+and one other item (either the wolf, the goat, or the cabbage). In his absence,
+the wolf would eat the goat, and the goat would eat the cabbage. Solve this
+problem for the peasant or prove it has no solution. (Note: The peasant is a
+vegetarian but does not like cabbage and hence can eat neither the goat nor
+the cabbage to help him solve the problem. And it goes without saying that
+the wolf is a protected species.)
+
+### 1.2 Problem 6:
 
 Describe the algorithm used by your favorite ATM machine in dispensing
 cash. (You may give your description in either English or pseudocode, whichever you find more convenient.)
-
-### 1.2 Problem 1
 
 ### 1.4 Problem 2
 
