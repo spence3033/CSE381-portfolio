@@ -414,6 +414,67 @@ print(answer)
 
 ### MergeSort
 
+```
+import random
+
+#setup
+size = 7
+unsortedArray = random.sample(range(1, 100), size)
+
+def mergeSort(arr):
+
+    print(arr)
+
+    if(len(arr) != 1):
+        num = len(arr) // 2
+        firstArr = arr[:num]
+        secondArr = arr[num:]
+
+        firstSortedArr = mergeSort(firstArr)
+        secondSortedArr = mergeSort(secondArr)
+
+        i = 0
+        j = 0
+
+        combinedSortedArr = []
+        
+        print(f"sorting: {firstSortedArr} :: {secondSortedArr}")
+
+        while(i < len(firstSortedArr) or j < len(secondSortedArr)):
+            # This is just in case the while loop didn't quite
+            if(i == len(firstSortedArr) and j == len(secondSortedArr)):
+                print("This should NOT HAPPEN")
+                break
+            elif(i >= len(firstSortedArr) and j < len(secondSortedArr)):
+                print(f"first array finished: add {secondSortedArr[j]}")
+                combinedSortedArr.append(secondSortedArr[j])
+                j += 1
+            elif(j >= len(secondSortedArr) and i < len(firstSortedArr)):
+                print(f"Second array finished: add {firstSortedArr[i]}")
+                combinedSortedArr.append(firstSortedArr[i])
+                i += 1
+
+            elif(firstSortedArr[i] < secondSortedArr[j]):
+                print(f"Add {firstSortedArr[i]}")
+                combinedSortedArr.append(firstSortedArr[i])
+                i += 1
+            else:
+                print(f"Add {secondSortedArr[j]}")
+                combinedSortedArr.append(secondSortedArr[j])
+                j += 1
+            
+        print(combinedSortedArr)
+
+        return combinedSortedArr
+
+    else:
+        return arr
+    
+
+sortedArray = mergeSort(unsortedArray)
+print(sortedArray)
+```
+
 ### Quicksort
 
 ```
