@@ -684,7 +684,7 @@ It could be 2 or n. It depends on if the array is sorted or not.
 
 #### d. How does this algorithm compare with the brute-force algorithm for this problem?
 
-* for recurrence my algorithm: (2, n) 
+* for recurrence relation of my algorithm: 2 for a sorted array, or n for an unsorted array
 * for brute-force: (n)
 
 So it's only better in one case.
