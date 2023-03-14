@@ -375,6 +375,31 @@ Second Diagraph: F, No dead end found, So it's not a DAG (directed acyclic graph
 ## Grade Claim 3
 
 ### Russion Peasant
+```
+# two positive integers
+x = 30
+y = 30
+
+def russianPeas(x, y, total):
+    print(x, y)
+    if (x == 1):
+        total += y
+        return total
+    elif (x % 2 == 1):
+        total += y
+        x -= 1
+        x = x / 2
+        y = y * 2
+    else:
+        x = x / 2
+        y = y * 2
+    returnValue = russianPeas(x, y, total)
+    return returnValue
+
+answer = russianPeas(x, y, 0)
+print(answer)
+
+```
 
 ### MergeSort
 
