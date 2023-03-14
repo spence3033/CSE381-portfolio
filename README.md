@@ -416,6 +416,45 @@ print(answer)
 
 ### Quicksort
 
+```
+import random
+
+#setup
+size = 7
+unsortedArray = random.sample(range(1, 100), size)
+
+def QuickSort(arr, low_index, high_index):
+
+    print(arr, low_index, high_index)
+
+    if (low_index < high_index):
+        pivot_location = Partition(arr, low_index, high_index)
+        QuickSort(arr, low_index, pivot_location)
+        QuickSort(arr, pivot_location + 1, high_index)
+
+def Partition(arr, low_index, high_index):
+    pivot = arr[low_index]
+    leftwall = low_index
+
+    # print(f'pivot number: {pivot}')
+    # print(f'leftwall index: {leftwall}')
+
+    for i in range(low_index + 1, high_index + 1):
+        # print(f'Array index: {arr}')
+        if (arr[i] < pivot):
+            arr[i], arr[leftwall] = arr[leftwall], arr[i]
+            leftwall = leftwall + 1
+        
+    
+    pivot, arr[leftwall] = arr[leftwall], pivot
+
+    return(leftwall)
+    
+
+sortedArray = QuickSort(unsortedArray, 0, len(unsortedArray) - 1)
+print(sortedArray)
+```
+
 ### PuIP Problem Reduction
 
 ### Problem 5.1: 1(a,b,c,d)
