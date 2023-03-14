@@ -722,4 +722,10 @@ For the version of quicksort given in this section:
 
 #### a. Are arrays made up of all equal elements the worst-case input, the bestcase input, or neither?
 
+This is the best case senario because you would discover every pivot is in the correct position.
+
 #### b. Are strictly decreasing arrays the worst-case input, the best-case input, or neither?
+
+This would be the worst case senario because you would have to switch the item-from-left and the item-from-right recusively the most times than in any other senario.
+
+
